@@ -1,0 +1,1557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #87bc29;
+    --primary-font: Algerian;
+    --bg-image-center: no-repeat center/cover;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+  }
+  .list-items20 {
+    display: inline;
+  }
+  
+  .list-items20 a {
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  .list-items20 a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  .nav__logo h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  span {
+    color: var(--primary-color);
+  }
+  
+  .hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.616)),
+      url("img/Doctor-in-Horiaty-Hospital.webp") var(--bg-image-center)
+        fixed;
+  }
+  
+  .hero__headings-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    margin-left: 10rem;
+    color: #fff;
+  }
+  
+  .hero__main-headings {
+    font-size: 5rem;
+    color: white;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  
+  .main-btn {
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  .main-headings {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 50px;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+  
+  .main-headings:hover {
+    transform: skew(30deg);
+  }
+  
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    direction: rtl;
+  }
+  
+  .card3 {
+    padding: 20px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card3:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 250px;
+  }
+  
+  .card3 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 10px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card2 {
+    padding: 20px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card2:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 250px;
+  }
+  
+  .card2 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 10px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card1 {
+    padding: 20px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card1:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 250px;
+  }
+  
+  .card1 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 10px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  
+  .img-one {
+    background: url("img/رسومات-عن-المخدرات-بالقلم-الرصاص..jpg") var(--bg-image-center);
+  }
+  .img-two {
+    background: url("img/pngtree-international-day-against-drugs-png-image_7081973.png") var(--bg-image-center);
+  }
+  .img-three {
+    background: url("img/3.jpg") var(--bg-image-center);
+  }
+  .img-one1 {
+    background: url("img/1000_F_400588667_7GbIVjp5ahUbxPhbRVZ5zJOmV7bCQntO.jpg") var(--bg-image-center);
+  }
+  .img-two1 {
+background: url("img/pngtree-hand-drawn-psychologist-image_2232034.jpg")  var(--bg-image-center);
+ }
+  .img-three1 {
+    background: url("img/202206270712271227.jpg") var(--bg-image-center);
+  }
+  
+  /* ******* WHY US ******* */
+  .why-us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .title2 {
+    padding-left:1300px;
+    font-size: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .lists-container {
+    
+    font-family: sans-serif;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 890px;
+    direction: rtl;
+  }
+  
+  .list-number {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+  }
+  
+  .list-number p {
+    color: var(--primary-color);
+    text-align: center;
+    
+  }
+  
+  .list-info{
+    color: rgb(122, 122, 122);
+    transition-property: all;
+    transition-duration: 0.7s;
+    margin-left: 270px;
+    
+  }
+  
+  .list-info:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .owner-image {
+    background: url(img/3.jpg) no-repeat top/cover;
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+    border-radius: 50%;
+    border: 10px solid var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 100px;
+    
+  }
+  
+  .owner-image:hover {
+    transform: scale(1.2);
+  }
+  
+  /* ******* PROJECT DETAILS ******* */
+  .project-details__container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    font-family: sans-serif;
+  }
+  
+  .project-details__container-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    font-family: sans-serif;
+    
+  }
+  
+  .project-details-img {
+    box-shadow: 10px 10px 5px var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  
+  .project-details-img:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 20px 10px var(--primary-color);
+    transform: skew(10deg);
+  }
+  
+  .title {
+    padding-left:300px;
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+  .list5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: ;
+    direction: rtl;
+  }
+  .list-number5 {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+  }
+  
+  .list-number5 p {
+    color: var(--primary-color);
+    text-align: center;
+    
+  }
+  
+  
+      .list-info5 {
+        direction: rtl;
+        font-size:19px ;
+        padding: 5px;
+        padding-right: 3px;
+      }
+      .project-details1__container-right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 10rem;
+        font-family: sans-serif;
+        
+      }
+      
+      .project-details1-img {
+        box-shadow: 10px 10px 5px var(--primary-color);
+        transition-property: all;
+        transition-duration: 1s;
+      }
+      
+      .project-details1-img:hover {
+        transform: scale(1.1);
+        box-shadow: 20px 20px 10px var(--primary-color);
+        transform: skew(10deg);
+      }
+      
+      .title1 {
+        padding-left:490px;
+        font-size: 27px;
+        padding-bottom: 10px;
+      }
+      .list1{
+        direction: rtl;
+      }
+          .list-info1 {
+            direction: rtl;
+            font-size:19px ;
+            padding: 6px;
+          }
+          .list-number1 {
+            width: 30px;
+            height: 30px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 20px;
+            direction: rtl;
+          }
+          .list-number1 p {
+            color: var(--primary-color);
+            text-align: center;
+          }
+          .list-info1 {
+            color: rgb(122, 122, 122);
+            transition-property: all;
+            transition-duration: 0.7s;
+          }
+            
+  
+  
+  .list-info1:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+
+  footer {
+    height: 30vh ;
+    background-color: #000000be ;
+    width: 100% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+  }
+  footer > a {
+    color: #fff ;
+    text-decoration: none ;
+    margin: 20px ;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  }
+footer > h1{
+  color: white;
+}  
+.lists-container1{
+  padding-left: 1150px;
+  direction: rtl;
+  
+  
+}
+.list15{
+  direction: rtl;
+  
+}
+.list-info15 {
+      direction: rtl;
+      font-size:25px ;
+      padding: 6px;
+    }
+    .lists-container.list-number15 {
+      width: 30px;
+      height: 30px;
+      border: 2px solid var(--primary-color);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 20px;
+      direction: rtl;
+    }
+    .lists-container.list-number15 p {
+      color: var(--primary-color);
+      text-align: center;
+    }
+    .lists-container.list-info15 {
+      color: rgb(122, 122, 122);
+      transition-property: all;
+      transition-duration: 0.7s;
+    }
+      
+
+
+    .list-info15:hover {
+transform: scale(1.1);
+font-weight: bold;
+}
+
+
+@media (max-width: 500px ) {
+ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #87bc29;
+    --primary-font: Algerian;
+    --bg-image-center: no-repeat center/cover;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+  
+  }
+  .list-items20 {
+    display: inline;
+    
+    
+  }
+  
+  .list-items20 a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  .list-items20 a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  .nav__logo h1 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: -40px;
+  }
+   h3{
+    margin-right: -40px;
+  }
+  
+  span {
+    color: var(--primary-color);
+    margin-left: 
+  }
+  .hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.616)),
+      url("Images/Doctor-in-Horiaty-Hospital.webp") var(--bg-image-center) fixed;
+  }
+  
+  .hero__headings-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    margin-left: 4rem;
+    color: #fff;
+  }
+  
+  .hero__main-headings {
+    font-size: 4rem;
+    color: white;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  
+  .main-btn {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fff;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  .main-headings {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: px;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+  
+  .main-headings:hover {
+    transform: skew(30deg);
+  }
+  
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card3 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card3:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card3-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card3 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card3 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  .card2 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .card2:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card2 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card1 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card1:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card1 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .img-one {
+    background: url("images/رسومات-عن-المخدرات-بالقلم-الرصاص..jpg") var(--bg-image-center);
+  }
+  .img-two {
+    background: url("Images/pngtree-international-day-against-drugs-png-image_7081973.png") var(--bg-image-center);
+  }
+  .img-three {
+    background: url("Images/three.jpg") var(--bg-image-center);
+  }
+  .img-one1 {
+    background: url("images/1000_F_400588667_7GbIVjp5ahUbxPhbRVZ5zJOmV7bCQntO.jpg") var(--bg-image-center);
+  }
+  .img-two1 {
+background: url("images/pngtree-hand-drawn-psychologist-image_2232034.jpg")  var(--bg-image-center);
+ }
+  .img-three1 {
+    background: url("Images/202206270712271227.jpg") var(--bg-image-center);
+  }
+  
+  /* ******* WHY US ******* */
+  .why-us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .title2 {
+    padding-left:300px;
+    font-size: 15px;
+    padding-bottom: 2.5px;
+    margin-bottom: 1.25px;
+    margin-top: 20px;
+  }
+  
+  .lists-container {
+    
+    font-family: sans-serif;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1px;
+    direction: rtl;
+  }
+  وقفت هنا
+  .list-number {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+  }
+  
+  .list-number p {
+    color: var(--primary-color);
+    text-align: center;
+    
+  }
+  
+  .list-info4{
+    color: rgb(122, 122, 122);
+    transition-property: all;
+    transition-duration: 0.7s;
+    margin-left: 15px;
+    font-size: 13px;
+    direction: rtl;
+    
+  }
+  
+  .list-info:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .owner-image {
+    background: url(images/نوبة-القلق-ماهيتها-الفرق-بينها-وبين-نوبة-الهلع-أعرا-600x400.jpg) no-repeat top/cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    border: 10px solid var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 50px;
+    
+  }
+  
+  .owner-image:hover {
+    transform: scale(1.2);
+  }
+  
+  /* ******* PROJECT DETAILS ******* */
+  .project-details__container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    font-family: sans-serif;
+  }
+  
+  .project-details__container-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    font-family: sans-serif;
+    
+  }
+  
+  .project-details-img {
+    box-shadow: 10px 10px 5px var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  
+  .project-details-img:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 20px 10px var(--primary-color);
+    transform: skew(10deg);
+  }
+  
+  .title {
+    padding-left:225px;
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+      .list-info {
+        direction: rtl;
+        font-size:10px ;
+        padding: 2.5px;
+        padding-right: 7.5px;
+      }
+      .project-details1__container-right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        font-family: sans-serif;
+        
+      }
+      
+      .project-details1-img {
+        box-shadow: 10px 10px 5px var(--primary-color);
+        transition-property: all;
+        transition-duration: 1s;
+      }
+      
+      .project-details1-img:hover {
+        transform: scale(1.1);
+        box-shadow: 20px 20px 10px var(--primary-color);
+        transform: skew(10deg);
+      }
+      
+      .title1 {
+        padding-left:300px;
+        font-size: 17px;
+        padding-bottom: 5px;
+      }
+      .list1{
+        direction: rtl;
+      }
+          .list-info1 {
+            direction: rtl;
+            font-size:12px ;
+            padding: 3px;
+          }
+          .list-number1 {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5px 10px;
+            direction: rtl;
+          }
+          .list-number1 p {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 10px;
+          }
+          .list-info1 {
+            color: rgb(122, 122, 122);
+            transition-property: all;
+            transition-duration: 0.7s;
+          }
+            
+  
+  
+  .list-info1:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .title3 {
+    padding-left:1350px;
+    font-size: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  footer {
+    height: 40vh;
+    width: 400px;
+    background-color: #000000be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer > a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 270px;
+    
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  }
+footer > h1{
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 250px;
+}
+.lists-container1 {
+  margin-right:200px px;
+}
+.list5 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 1px;
+  direction: rtl;
+}
+ 
+.list-number5 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  direction: rtl;
+}
+
+.list-number5 p {
+  color: var(--primary-color);
+  text-align: center;
+  direction: rtl;
+  
+}
+
+.list-info5{
+  color: rgb(122, 122, 122);
+  transition-property: all;
+  transition-duration: 0.7s;
+  margin-left: 15px;
+  font-size: 13px;
+  direction: rtl;
+  
+}
+.list-info5:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  direction: rtl;
+}
+.title7{
+  font-size: px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-left: 300px;
+  display: flex;
+}
+.list-number15 {
+  width: 20px !important;
+  height: 20px !important;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  direction: rtl;
+  
+}
+.list-number15 p {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 10px; 
+ }
+.list-info15 {
+  color: rgb(122, 122, 122);
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+.list-info15{
+  font-size: 12px;
+  
+  direction: rtl;
+}
+  
+
+
+
+}
+@media (max-width: 410px ) {
+ 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #87bc29;
+    --primary-font: Algerian;
+    --bg-image-center: no-repeat center/cover;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+  }
+  .list-items20 {
+    display: inline;
+  }
+  
+  .list-items20 a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  .list-items20 a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  .nav__logo h1 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: -40px;
+  }
+   h3{
+    margin-right: -40px;
+  }
+  
+  span {
+    color: var(--primary-color);
+    margin-left: 
+  }
+  .hero {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.616)),
+      url("Images/Doctor-in-Horiaty-Hospital.webp") var(--bg-image-center) fixed;
+  }
+  
+  .hero__headings-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    margin-left: 4rem;
+    color: #fff;
+  }
+  
+  .hero__main-headings {
+    font-size: 4rem;
+    color: white;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  .main-span {
+    font-family: var(--primary-font);
+  }
+  
+  .hero__headings-container p {
+    font-weight: bold;
+  }
+  
+  .main-btn {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fff;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  .main-headings {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: px;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+  
+  .main-headings:hover {
+    transform: skew(30deg);
+  }
+  
+  /* CARDS */
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card3 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card3:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card3-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card3 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card3 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  .card2 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .card2:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card2 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .card1 {
+    padding: 5px;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+    border: 1px solid #ccc;
+  }
+  
+  .card1:hover {
+    box-shadow: 2px 2px 2px 2px #ccc;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 125px;
+  }
+  
+  .card1 p {
+    color: rgb(39, 39, 39);
+    font-family: sans-serif;
+    padding: 1px;
+    direction: rtl;
+    font-style: italic;
+    font-display: bold;
+  }
+  .img-one {
+    background: url("images/رسومات-عن-المخدرات-بالقلم-الرصاص..jpg") var(--bg-image-center);
+  }
+  .img-two {
+    background: url("Images/pngtree-international-day-against-drugs-png-image_7081973.png") var(--bg-image-center);
+  }
+  .img-three {
+    background: url("Images/three.jpg") var(--bg-image-center);
+  }
+  .img-one1 {
+    background: url("images/1000_F_400588667_7GbIVjp5ahUbxPhbRVZ5zJOmV7bCQntO.jpg") var(--bg-image-center);
+  }
+  .img-two1 {
+background: url("images/pngtree-hand-drawn-psychologist-image_2232034.jpg")  var(--bg-image-center);
+ }
+  .img-three1 {
+    background: url("Images/202206270712271227.jpg") var(--bg-image-center);
+  }
+  
+  /* ******* WHY US ******* */
+  .why-us {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .title2 {
+    padding-left:280px;
+    font-size: 14px;
+    padding-bottom: 2.5px;
+    margin-bottom: 1.25px;
+    margin-top: 20px;
+  }
+  
+  .lists-container {
+    
+    font-family: sans-serif;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 1px;
+    direction: rtl;
+  }
+  وقفت هنا
+  .list-number {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+  }
+  
+  .list-number p {
+    color: var(--primary-color);
+    text-align: center;
+    
+  }
+  
+  .list-info4{
+    color: rgb(122, 122, 122);
+    transition-property: all;
+    transition-duration: 0.7s;
+    margin-left: 15px;
+    font-size: 13px;
+    direction: rtl;
+    
+  }
+  
+  .list-info:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .owner-image {
+    background: url(images/نوبة-القلق-ماهيتها-الفرق-بينها-وبين-نوبة-الهلع-أعرا-600x400.jpg) no-repeat top/cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    border-radius: 50%;
+    border: 10px solid var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 50px;
+    
+  }
+  
+  .owner-image:hover {
+    transform: scale(1.2);
+  }
+  
+  /* ******* PROJECT DETAILS ******* */
+  .project-details__container-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    font-family: sans-serif;
+  }
+  
+  .project-details__container-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    font-family: sans-serif;
+    
+  }
+  
+  .project-details-img {
+    box-shadow: 10px 10px 5px var(--primary-color);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  
+  .project-details-img:hover {
+    transform: scale(1.1);
+    box-shadow: 20px 20px 10px var(--primary-color);
+    transform: skew(10deg);
+  }
+  
+  .title {
+    padding-left:225px;
+    font-size:14px;
+    padding-bottom: 10px;
+  }
+      .list-info {
+        direction: rtl;
+        font-size:14px ;
+        padding: 2.5px;
+        padding-right: 7.5px;
+      }
+      .project-details1__container-right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        font-family: sans-serif;
+        
+      }
+      
+      .project-details1-img .img-two{
+        box-shadow: 10px 10px 5px var(--primary-color);
+        transition-property: all;
+        transition-duration: 1s;
+        
+      }
+      
+      .project-details1-img:hover {
+        transform: scale(1.1);
+        box-shadow: 20px 20px 10px var(--primary-color);
+        transform: skew(10deg);
+      }
+      
+      .title1 {
+        padding-left:280px;
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      .list1{
+        direction: rtl;
+      }
+          .list-info1 {
+            direction: rtl;
+            font-size:14px ;
+            padding-right: 6px;
+          }
+          .list-number {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5px 10px;
+            direction: rtl;
+          }
+          .list-number p {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 10px; 
+            
+
+          }
+          .list15{
+            direction: rtl !important;
+            display: flex !important;
+            align-items: center !important;
+            text-align: center !important;
+            padding-right: 33px !important;
+            direction: rtl !important;
+
+          }
+          }
+          
+            
+              .list-number15 {
+                width: 20px !important;
+                height: 20px !important;
+                border: 2px solid var(--primary-color);
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 5px 10px;
+                direction: rtl;
+                
+              }
+              .list-number15 p {
+                color: var(--primary-color);
+                text-align: center;
+                font-size: 10px; 
+               }
+              .list-info15 {
+                color: rgb(122, 122, 122);
+                transition-property: all;
+                transition-duration: 0.7s;
+              }
+              .list-info15{
+                font-size: 12px;
+                
+                direction: rtl;
+              }
+                
+          
+          .list-info4 {
+            color: rgb(122, 122, 122);
+            transition-property: all;
+            transition-duration: 0.7s;
+          }
+          .list-info4{
+            font-size: 15px;
+            padding-right: 6px;
+            direction: rtl;
+          }
+            
+  
+  
+  .list-info4:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .title3 {
+    padding-left:1350px;
+    font-size: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  footer {
+    height: 20vh !important;
+    width: 100% !important;
+    background-color: #000000be !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  footer > a {
+    color:white;
+    text-decoration: none;
+    margin-bottom:60px;
+    
+    
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  }
+footer > h1{
+  color: white;
+  margin-bottom: 56px;
+  padding-right: 5px;
+ 
+
+}
+.list5 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 1px;
+  direction: rtl;
+}
+ 
+.list-number5 {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  direction: rtl;
+}
+
+.list-number5 p {
+  color: var(--primary-color);
+  text-align: center;
+  direction: rtl;
+  font-size: 10px;
+}
+
+.list-info5{
+  color: rgb(122, 122, 122);
+  transition-property: all;
+  transition-duration: 0.7s;
+  padding-right: 6px;
+  font-size: 14px;
+  direction: rtl;
+  
+}
+.list-info5:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  direction: rtl;
+}
+.title7{
+  font-size: 17px ; 
+  padding-bottom: 20px ;
+  margin-bottom: 10px ;
+  margin-top: 20px ;
+  padding-left: 300px ;
+}
+
+
+
